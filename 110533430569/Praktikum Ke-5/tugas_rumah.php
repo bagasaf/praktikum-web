@@ -65,7 +65,7 @@ if(is_string($_POST['user']) AND ($_POST['password'])){
     if (($_POST['user']=='auk')AND($_POST['password']=='galau')){
         echo 'Anda berhasil Login <br/>';
         echo 'Selamat datang ' . $_POST['user'] ;
-        require_once './administ.php';
+        require_once './lat1.1_5.php';
         exit();
     }
     else{

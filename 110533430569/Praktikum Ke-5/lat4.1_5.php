@@ -11,7 +11,7 @@
 
 
 ini_set('display_error', 1);
-require "koneksi.php";
+require "lat1.1_5.php";
 require "data_handler.php";
 define('mhs', 'maha');
 data_handler('?m=data');

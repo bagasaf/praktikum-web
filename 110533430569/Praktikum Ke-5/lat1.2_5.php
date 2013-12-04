@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-require_once './koneksi.php';
+require_once './lat1.1_5.php';
 ?>
 <h4>Koneksi Berhasil</h4>
 </body>

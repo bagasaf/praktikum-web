@@ -12,7 +12,7 @@
 <body>
 
 <?php 
-require_once './koneksi.php';
+require_once './lat1.1_5.php';
 
 $sql = 'SELECT * FROM mahasiswa order by NIM';
 mysql_select_db($nama_db, $cnn) or die("Gagal memilih database!");

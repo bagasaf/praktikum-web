@@ -5,8 +5,8 @@
 </head>
 <body>
 <?php
-require_once './koneksi.php';
-$db = 'myweb';
+require_once './lat1.1_5.php';
+$db = 'dbweb';
 $res = mysql_query('CREATE DATABASE ' . $db);
 if ($res) {
 echo 'Database ' .$db. ' Created';
